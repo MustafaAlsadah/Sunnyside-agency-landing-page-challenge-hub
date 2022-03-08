@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap');
+
+:root{
+    --Grayish-blue: hsl(210, 4%, 67%);
+    --Very-dark-desaturated-blue: hsl(212, 27%, 19%);
+}
 
 body{
     min-height: 100vh;
@@ -7,7 +13,7 @@ body{
 }
 
 
-#headerImg {
+#header-strip {
     background-image: url("images/desktop/image-header.jpg");
     background-size: contain;
     background-repeat: no-repeat;
@@ -39,6 +45,19 @@ body{
 
 .Fraunces900{
     font-family: 'Fraunces', serif;
+    font-weight: 900;
+    color: white;
+}
+
+.Fraunces700{
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    color: white;
+}
+
+.Barlow600{
+    font-family: "Barlow", Serif;
+    font-weight: 600;
     color: white;
 }
 
@@ -54,5 +73,67 @@ body{
     position: relative;
     left: 741px;
     top: 181px;
+}
+
+.page-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.second-strip{
+    /*display: grid;*/
+    /*grid-template-columns: repeat(2, 1fr);*/
+    position: relative;
+}
+
+.egg {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+
+.second-strip-heading {
+    color: var(--Very-dark-desaturated-blue);
+    position: absolute;
+    left: 202px;
+    width: 32%;
+    top: 165px;
+    font-size: 44px;
+}
+
+.second-strip-paragraph {
+    color: var(--Grayish-blue);
+    width: 27%;
+    position: absolute;
+    top: 316px;
+    left: 202px;
+    line-height: 26px;
+}
+
+.transform-your {
+    position: relative;
+}
+
+.second-strip-button{
+    position: absolute;
+    top: 444px;
+    left: 203px;
+    background-color: transparent;
+    border: transparent;
+    color: var(--Very-dark-desaturated-blue);
+    font-size: 16px;
+    z-index: 2;
+}
+
+.light-yellow-effect{
+    background-color: hsla(51, 91%, 70%, 0.86);
+    width: 124px;
+    position: absolute;
+    top: 456px;
+    left: 202px;
+    height: 10px;
+    border-radius: 27px;
 }
 
