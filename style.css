@@ -10,6 +10,7 @@
 body{
     min-height: 100vh;
     margin: 0px;
+    max-width: 1440px;
 }
 
 
@@ -89,7 +90,7 @@ body{
 
 .egg {
     position: absolute;
-    right: 0px;
+    right: -79px;
     top: 0px;
 }
 
@@ -137,3 +138,6 @@ body{
     border-radius: 27px;
 }
 
+.contact-button{
+
+}
