@@ -195,6 +195,7 @@ body{
 
 .testmonials {
     padding: 500px;
+    position: relative;
 }
 
 .cherry-heading {
@@ -233,4 +234,31 @@ body{
 .orange-text {
     position: absolute;
     left: 752px;
+}
+
+.testmonials-heading {
+    position: absolute;
+    top: 1910px;
+    left: 497px;
+    color: hsl(210, 4%, 67%);
+    font-size: 30px;
+    gap: 30px;
+    letter-spacing: 6px;
+}
+
+.clients-cards-board{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    position: absolute;
+    top: 2113px;
+    grid-gap: 350px;
+    left: 174px;
+}
+
+.encircle{
+    border-radius: 100%;
+}
+
+.client-card > p {
+    color: orange;
 }
