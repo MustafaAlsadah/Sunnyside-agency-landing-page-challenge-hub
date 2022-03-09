@@ -5,6 +5,8 @@
 :root{
     --Grayish-blue: hsl(210, 4%, 67%);
     --Very-dark-desaturated-blue: hsl(212, 27%, 19%);
+    --dark-green: hsl(167, 40%, 24%);
+    --light-green: hsl(168, 34%, 41%);
 }
 
 body{
@@ -19,7 +21,7 @@ body{
     background-size: contain;
     background-repeat: no-repeat;
     height: 844px;
-    width: 1519px;
+    width: 1440px;
 }
 
 .logoImg{
@@ -83,9 +85,9 @@ body{
 }
 
 .second-strip{
-    /*display: grid;*/
-    /*grid-template-columns: repeat(2, 1fr);*/
     position: relative;
+    top: -44px;
+    left: -79px;
 }
 
 .egg {
@@ -140,4 +142,95 @@ body{
 
 .contact-button{
 
+}
+
+.third-strip {
+    position: relative;
+    top: 600px;
+}
+
+.glass {
+    position: absolute;
+    top: -44px;
+}
+.stand-out {
+    left: 49%;
+    position: relative;
+}
+
+.third-strip-heading{
+    color: var(--Very-dark-desaturated-blue);
+    position: absolute;
+    left: 202px;
+    width: 33%;
+    top: 165px;
+    font-size: 44px;
+}
+
+.fourth-strip {
+    position: relative;
+    top: 1156px;
+    left: -79px;
+}
+.orange {
+    position: absolute;
+    left: 799px;
+}
+.cherry {
+    position: absolute;
+    left: 79px;
+}
+
+.fifth-strip{
+    position: relative;
+    top: 1756px;
+    display: grid;
+    grid-template-columns: repeat(4, 359px);
+}
+
+.fifth-strip-img {
+    width: 101%;
+    display: block;
+}
+
+.testmonials {
+    padding: 500px;
+}
+
+.cherry-heading {
+    position: absolute;
+    left: 300px;
+    top: 356px;
+    color: ;
+    color: var(--dark-green);
+}
+.cherry-paragraph {
+    position: absolute;
+    top: 422px;
+    width: 23%;
+    left: 271px;
+    text-align: center;
+    color: var(--light-green);
+}
+
+.orange-heading {
+    position: absolute;
+    left: 300px;
+    top: 356px;
+    color: ;
+    color: hsl(198, 62%, 26%);
+}
+
+.orange-paragraph {
+    position: absolute;
+    top: 422px;
+    width: 342px;
+    left: 235px;
+    text-align: center;
+    color: hsl(198, 62%, 26%);
+}
+
+.orange-text {
+    position: absolute;
+    left: 752px;
 }
