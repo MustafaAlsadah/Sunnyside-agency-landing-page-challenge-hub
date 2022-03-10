@@ -247,13 +247,13 @@ body{
     letter-spacing: 6px;
 }
 
-.clients-cards-board{
+.clients-cards-board {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     position: absolute;
     top: 2113px;
-    grid-gap: 350px;
-    left: 174px;
+    grid-gap: 233px;
+    left: 20px;
 }
 
 .encircle{
@@ -262,6 +262,8 @@ body{
 
 .client-card > p {
     color: var(--dark-blue-graish);
+    text-align: center;
+    width: 314px;
 }
 
 .client-card > h3{
@@ -270,4 +272,8 @@ body{
 
 .client-card > h4{
     color: var(--Grayish-blue);
+}
+
+.client-card {
+    text-align: center;
 }
