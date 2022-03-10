@@ -8,6 +8,7 @@
     --dark-green: hsl(167, 40%, 24%);
     --light-green: hsl(168, 34%, 41%);
     --dark-blue-graish: hsl(232, 10%, 55%);
+    --light-green2: #8DCFC0;
 }
 
 body{
@@ -276,4 +277,47 @@ body{
 
 .client-card {
     text-align: center;
+}
+
+.footer {
+    background-color: var(--light-green2);
+    width: 1440px;
+    position: absolute;
+    top: 4050px;
+    height: 372px;
+}
+
+.footer-logo {
+    width: 465px;
+    position: absolute;
+    top: 90px;
+    left: 351px;
+}
+
+.footer-buttons {
+    display: grid;
+    grid-template-columns: repeat(3, 0fr);
+    text-align: center;
+    font-size: 38px;
+    position: relative;
+    top: 177px;
+    grid-gap: 71px;
+    left: 503px;
+}
+
+.footer-buttons > button{
+    background-color: transparent;
+    border: 0px;
+    color: var(--light-green);
+    font-size: 19px;
+    text-align: center;
+}
+
+.footer-logos {
+    display: grid;
+    grid-template-columns: repeat(4, 0fr);
+    grid-gap: 22px;
+    position: relative;
+    top: 271px;
+    left: 597px;
 }
