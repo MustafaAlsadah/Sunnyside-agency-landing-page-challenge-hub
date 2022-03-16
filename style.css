@@ -73,9 +73,11 @@ body{
 
 .menu-navbar > span{
     margin-right: 30px;
+    cursor: pointer;
 }
 
 .contact-btn {
+    cursor: pointer;
     background-color: white;
     color: var(--Very-dark-desaturated-blue);
     padding: 12px 23px;
