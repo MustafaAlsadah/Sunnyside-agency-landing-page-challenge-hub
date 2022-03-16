@@ -2,52 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap');
 
-:root{
-    --Grayish-blue: hsl(210, 4%, 67%);
-    --Very-dark-desaturated-blue: hsl(212, 27%, 19%);
-    --dark-green: hsl(167, 40%, 24%);
-    --light-green: hsl(168, 34%, 41%);
-    --dark-blue-graish: hsl(232, 10%, 55%);
-    --light-green2: #8DCFC0;
-}
-
-body{
-    min-height: 100vh;
-    margin: 0px;
-    max-width: 1440px;
-}
-
-
-#header-strip {
-    background-image: url("images/desktop/image-header.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 844px;
-    width: 1440px;
-}
-
-.logoImg{
-    position: relative;
-    top: 28px;
-    left: 25px;
-}
-
-.fourColumnsGrid{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 45px;
-}
-
-.headerNavBar{
-    position: relative;
-    left: 1101px;
-    width: 297px;
-    font-size: 18px;
-    font-family: "Barlow", sans-serif;
-    text-align: center;
-    color: white;
-}
-
 .Fraunces900{
     font-family: 'Fraunces', serif;
     font-weight: 900;
@@ -66,21 +20,95 @@ body{
     color: white;
 }
 
-.Header-Main-Heading{
-    top: 148px;
+:root{
+    --Grayish-blue: hsl(210, 4%, 67%);
+    --Very-dark-desaturated-blue: hsl(212, 27%, 19%);
+    --dark-green: hsl(167, 40%, 24%);
+    --light-green: hsl(168, 34%, 41%);
+    --dark-blue-graish: hsl(232, 10%, 55%);
+    --light-green2: #8DCFC0;
+}
+
+body{
+    min-height: 100vh;
+    margin: 0px;
+}
+
+
+#we-are-creatives-section {
+    background-image: url("images/desktop/image-header.jpg");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 22px;
+    padding-right: 22px;
+    align-items: center;
+    height: 67px;
+}
+
+.fourColumnsGrid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 45px;
+}
+
+.menu-navbar{
+    font-size: 18px;
+    font-family: "Barlow", sans-serif;
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.menu-navbar > span{
+    margin-right: 30px;
+}
+
+.contact-btn {
+    background-color: white;
+    color: var(--Very-dark-desaturated-blue);
+    padding: 12px 23px;
+    border-radius: 33px;
+    transition: all 0.25s;
+    font-size: 13px;
+}
+
+.contact-btn:hover{
+    background-color: #6ECFFC;
+}
+
+.heading-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*flex-grow: 1;*/
+    justify-content: center;
+    align-content: center;
     position: relative;
-    left: 460px;
-    font-size: 56px;
-    width: 606px;
+    top: 99px;
+}
+
+.Header-Main-Heading{
+    font-size: 50px;
+    letter-spacing: 7px;
 }
 
 .Header-Arrow {
-    position: relative;
-    left: 741px;
-    top: 181px;
+    margin-top: 67px;
 }
 
-.page-container {
+.page-wrapper-div {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -204,7 +232,6 @@ body{
     position: absolute;
     left: 300px;
     top: 356px;
-    color: ;
     color: var(--dark-green);
 }
 .cherry-paragraph {
@@ -220,7 +247,6 @@ body{
     position: absolute;
     left: 300px;
     top: 356px;
-    color: ;
     color: hsl(198, 62%, 26%);
 }
 
