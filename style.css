@@ -235,7 +235,7 @@ body{
 .orange-background{
     background-image: url("images/desktop/image-photography.jpg");
 }
-
+/*l*/
 .section-4-text {
     display: flex;
     flex-direction: column;
