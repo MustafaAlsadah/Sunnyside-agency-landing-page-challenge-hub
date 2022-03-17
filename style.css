@@ -147,6 +147,9 @@ body{
     flex: 1;
 }
 
+.section-side-image-wrapper{
+    margin-bottom: -4px;
+}
 
 .text-side-wrapper{
     overflow: hidden;
@@ -202,14 +205,14 @@ body{
     align-items: center;
     justify-content: space-between;
     position: relative;
-    top: -4px;
+    /*top: -4px;*/
 }
 
 .section-4-wrapper{
     display: flex;
     flex: 1;
-    position: relative;
-    top: -8px;
+    /*position: relative;*/
+    /*top: -8px;*/
 }
 
 .section-4-img{
