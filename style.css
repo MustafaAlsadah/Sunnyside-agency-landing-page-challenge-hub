@@ -143,18 +143,19 @@ body{
     background-color: #F0CD00;
 }
 
-.left-side-wrapper, .egg-image-wrapper{
+.text-side-wrapper, .section-side-image-wrapper{
     flex: 1;
 }
 
-.left-side-wrapper{
+
+.text-side-wrapper{
     overflow: hidden;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.egg-image{
+.section-side-image{
     width: 100%;
     min-width: 295px;
 }
@@ -177,7 +178,8 @@ body{
 
 .left-side-btn{
     color: var(--Very-dark-desaturated-blue);
-    font-size: 151%;
+    font-size: 108%;
+    cursor: pointer;
 }
 
 .left-side-btn-label{
@@ -193,57 +195,73 @@ body{
     align-items: flex-start;
 }
 
-
-.second-strip-heading {
-    color: var(--Very-dark-desaturated-blue);
-    position: absolute;
-    left: 202px;
-    width: 32%;
-    top: 165px;
-    font-size: 44px;
-}
-
-.second-strip-paragraph {
-    color: var(--Grayish-blue);
-    width: 27%;
-    position: absolute;
-    top: 316px;
-    left: 202px;
-    line-height: 26px;
-}
-
-.transform-your {
+.stand-out-section {
+    background-color: #FFFBF8;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
     position: relative;
+    top: -4px;
 }
 
-.second-strip-button{
-    position: absolute;
-    top: 444px;
-    left: 203px;
-    background-color: transparent;
-    border: transparent;
-    color: var(--Very-dark-desaturated-blue);
-    font-size: 16px;
-    z-index: 2;
-}
-
-.light-yellow-effect{
-    background-color: hsla(51, 91%, 70%, 0.86);
-    width: 124px;
-    position: absolute;
-    top: 456px;
-    left: 202px;
-    height: 10px;
-    border-radius: 27px;
-}
-
-.contact-button{
-
-}
-
-.third-strip {
+.section-4-wrapper{
+    display: flex;
+    flex: 1;
     position: relative;
-    top: 600px;
+    top: -8px;
+}
+
+.section-4-img{
+    width: 100%;
+}
+
+.section-4-image-wrapper{
+    background-size: contain;
+    width: 100%;
+    background-position: center top;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    height: 0;
+    padding-top: 42%;
+}
+
+.cherry-background{
+    background-image: url("images/desktop/image-graphic-design.jpg");
+}
+
+.orange-background{
+    background-image: url("images/desktop/image-photography.jpg");
+}
+
+.section-4-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 165px;
+    width: 47%;
+    left: 27%;
+    text-align: center;
+}
+
+.section-4-cherry-heading{
+    color: #235248;
+    font-size: 23px;
+}
+.section-4-cherry-paragraph{
+    color: #3B7567;
+}
+
+.section-4-orange-heading{
+    color: #1E5168;
+    font-size: 23px;
+}
+.section-4-orange-paragraph{
+    color: #135F81;
 }
 
 .glass {
