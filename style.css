@@ -7,19 +7,19 @@
 .Fraunces900{
     font-family: 'Fraunces', serif;
     font-weight: 900;
-    color: white;
+    color: #000000;
 }
 
 .Fraunces700{
     font-family: 'Fraunces', serif;
     font-weight: 700;
-    color: white;
+    color: #000000;
 }
 
 .Barlow600{
     font-family: "Barlow", Serif;
     font-weight: 600;
-    color: white;
+    color: #000000;
 }
 
 :root{
@@ -107,6 +107,7 @@ body{
 .Header-Main-Heading{
     font-size: 50px;
     letter-spacing: 7px;
+    color: white;
 }
 
 .Header-Arrow {
@@ -281,4 +282,75 @@ body{
 
 .left-side-btn:hover > .red-rod{
     background-color: #F97761;
+}
+
+.testinomials-section-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-color: #FFFBF8;
+}
+
+.client-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.client-testinomial-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.client-cards-board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.client-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.encircle {
+    border-radius: 100%;
+    width: 50%;
+}
+
+.client-role {
+    color: var(--Grayish-blue);
+    font-size: 78%;
+    padding-top: 8%;
+}
+
+.client-paragraph {
+    color: #616266;
+    text-align: center;
+    width: 81%;
+    font-size: 90%;
+    padding-top: 6%;
+    padding-bottom: 6%;
+}
+
+.testinomials-heading {
+    color: var(--Grayish-blue);
+    margin-bottom: 5%;
+    font-size: 111%;
+    letter-spacing: 4px;
+}
+
+.client-name{
+    font-size: 97%;
+}
+
+.thomas-paragraph{
+    width: 70%
 }
