@@ -377,3 +377,48 @@ body{
 .thomas-paragraph{
     width: 70%
 }
+
+.footer{
+    background-color: #90D4C5;
+    padding-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+}
+
+.footer-navbar > span{
+    color: #4E9283;
+    padding-bottom: 5%;
+    transition: all 0.25s;
+    cursor: pointer;
+}
+
+.footer-navbar > span:hover{
+    color: white;
+}
+
+.footer-logos-navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 21%;
+    padding-top: 4%;
+}
+
+.footer-logos-navbar>img{
+    cursor: pointer;
+}
+
+.footer-logos-navbar > img:hover{
+    filter: brightness(100);
+}
+
+.footer-navbar {
+    display: flex;
+    flex-direction: row;
+    width: 29%;
+    justify-content: space-evenly;
+    padding-top: 1%;
+}
