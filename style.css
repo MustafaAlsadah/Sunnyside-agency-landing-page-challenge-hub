@@ -275,7 +275,7 @@ body{
 .four-pics-section{
     display: flex;
 }
-
+/**/
 .fifth-strip-img {
     flex: 1;
     width: 100%;
