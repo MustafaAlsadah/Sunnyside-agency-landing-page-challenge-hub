@@ -272,10 +272,12 @@ body{
     max-height: 116px;
 }
 
-.four-pics-section{
+.four-pics-section {
     display: flex;
+    flex: 1;
+    width: 100%;
 }
-/**/
+
 .fifth-strip-img {
     flex: 1;
     width: 100%;
