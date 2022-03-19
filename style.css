@@ -258,6 +258,8 @@ body{
 }
 .section-4-cherry-paragraph{
     color: #3B7567;
+    overflow: hidden;
+    max-height: 90px;
 }
 
 .section-4-orange-heading{
@@ -266,6 +268,8 @@ body{
 }
 .section-4-orange-paragraph{
     color: #135F81;
+    overflow: hidden;
+    max-height: 116px;
 }
 
 .red-rod{
