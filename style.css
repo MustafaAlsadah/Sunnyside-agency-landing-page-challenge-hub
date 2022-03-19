@@ -272,6 +272,15 @@ body{
     max-height: 116px;
 }
 
+.four-pics-section{
+    display: flex;
+}
+
+.fifth-strip-img {
+    flex: 1;
+    width: 100%;
+}
+
 .red-rod{
     padding: 3px 0px;
     background-color: #FFDFDA;
