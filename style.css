@@ -113,6 +113,7 @@ body{
 
 .Header-Arrow {
     margin-top: 67px;
+    transition: all 0.25s;
 }
 
 .page-wrapper-div {
@@ -421,4 +422,33 @@ body{
     width: 29%;
     justify-content: space-evenly;
     padding-top: 1%;
+}
+
+@media (max-width: 440px) {
+    .menu-navbar{
+        /*display: none;*/
+        flex-wrap: wrap;
+    }
+    .Header-Main-Heading{
+        text-align: center;
+    }
+    .transform-your-brand-section{
+        flex-direction: column;
+    }
+    .stand-out-section{
+        flex-direction: column;
+    }
+    .section-4-wrapper{
+        flex-direction: column;
+    }
+    .client-cards-board{
+        flex-direction: column;
+    }
+    .four-pics-section{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .fifth-strip-img{
+        width: 100%;
+    }
 }
