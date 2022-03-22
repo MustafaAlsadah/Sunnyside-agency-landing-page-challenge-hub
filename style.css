@@ -266,7 +266,6 @@ body{
 .section-4-cherry-paragraph{
     color: #3B7567;
     overflow: hidden;
-    max-height: 90px;
 }
 
 .section-4-orange-heading{
@@ -276,7 +275,6 @@ body{
 .section-4-orange-paragraph{
     color: #135F81;
     overflow: hidden;
-    max-height: 116px;
 }
 
 .four-pics-section {
@@ -423,7 +421,7 @@ body{
     justify-content: space-evenly;
     padding-top: 1%;
 }
-/*l*/
+
 @media (max-width: 440px) {
     .menu-navbar{
         /*display: none;*/
@@ -450,5 +448,16 @@ body{
     }
     .fifth-strip-img{
         width: 100%;
+    }
+    .left-side-text{
+        align-items: center;
+        padding-top: 16%;
+        padding-bottom: 16%;
+    }
+    .left-side-paragraph{
+        text-align: center;
+    }
+    .left-side-heading{
+        text-align: center;
     }
 }
