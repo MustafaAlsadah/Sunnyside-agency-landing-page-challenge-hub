@@ -423,7 +423,7 @@ body{
     justify-content: space-evenly;
     padding-top: 1%;
 }
-
+/*l*/
 @media (max-width: 440px) {
     .menu-navbar{
         /*display: none;*/
