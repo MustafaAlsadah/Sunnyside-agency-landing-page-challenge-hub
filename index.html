@@ -20,6 +20,19 @@
         <span>Projects</span>
         <div class="Fraunces700 contact-btn">CONTACT</div>
       </nav>
+      <nav class="mobile-view-navbar-btn" data-visible="false">
+        <img src="images/icon-hamburger.svg">
+      </nav>
+    </div>
+
+    <div class="mobile-view-navbar-slide-menu">
+      <div class="triangle"></div>
+      <div class="menu-container">
+        <span class="Barlow600 mobile-menu-option">About</span>
+        <span class="Barlow600 mobile-menu-option">Services</span>
+        <span class="Barlow600 mobile-menu-option">Projects</span>
+        <div class="Fraunces700 contact-btn">CONTACT</div>
+      </div>
     </div>
 
     <div class="heading-wrapper">
@@ -167,8 +180,17 @@
 
 
 <script>
-  let arrow = document.querySelector(".Header-Arrow");
-
+  let myBtn = document.querySelector(".mobile-view-navbar-btn");
+  let myContainer = document.querySelector(".menu-container");
+  myBtn.onclick = ()=>{
+    if (myBtn.dataset.visible == "false"){
+      myContainer.style.display = "flex";
+      myBtn.dataset.visible = "true"
+    }else {
+      myContainer.style.display = "none";
+      myBtn.dataset.visible = "false"
+    }
+  }
 </script>
       </body>
       </html>
