@@ -218,8 +218,6 @@ body{
 .section-4-wrapper{
     display: flex;
     flex: 1;
-    /*position: relative;*/
-    /*top: -8px;*/
     width: 100%;
 }
 
@@ -228,15 +226,12 @@ body{
 }
 
 .section-4-image-wrapper{
-    background-size: contain;
-    width: 100%;
-    background-position: center top;
-    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     flex: 1;
-    height: 0;
-    padding-top: 42%;
+    width: 100%;
+    justify-content: end;
+    align-items: center;
 }
 
 .cherry-background{
@@ -248,35 +243,32 @@ body{
 }
 /*l*/
 .section-4-text {
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    position: relative;
-    bottom: 165px;
-    width: 47%;
-    left: 27%;
+    justify-content: center;
+    position: absolute;
+    flex: 1;
+    width: 40%;
     text-align: center;
 }
 
-.section-4-cherry-heading{
+.section-4-heading{
     color: #235248;
-    font-size: 23px;
+    font-size: 147%;
 }
-.section-4-cherry-paragraph{
+.section-4-paragraph{
     color: #3B7567;
     overflow: hidden;
-    max-height: 90px;
 }
 
-.section-4-orange-heading{
+.section-4-heading{
     color: #1E5168;
     font-size: 23px;
 }
-.section-4-orange-paragraph{
+.section-4-paragraph{
     color: #135F81;
     overflow: hidden;
-    max-height: 116px;
 }
 
 .four-pics-section {
@@ -423,7 +415,12 @@ body{
     justify-content: space-evenly;
     padding-top: 1%;
 }
-/*l*/
+
+.section-4-img-element{
+    flex: 1;
+    width: 100%;
+}
+
 @media (max-width: 440px) {
     .menu-navbar{
         /*display: none;*/
@@ -450,5 +447,31 @@ body{
     }
     .fifth-strip-img{
         width: 100%;
+    }
+    .left-side-text{
+        padding-top: 16%;
+        padding-bottom: 16%;
+        text-align: center;
+        align-items: center;
+    }
+    .section-4-text{
+
+    }
+    .testinomials-heading{
+        padding-bottom: 7%;
+    }
+    .client-testinomial-card{
+        margin-bottom: 19%;
+    }
+    .footer-logos-navbar{
+        width: 60%;
+    }
+    .footer{
+        padding-top: 22%;
+        padding-bottom: 22%;
+    }
+    .footer-navbar{
+        width: 94%;
+        margin-top: 6%;
     }
 }
