@@ -241,7 +241,7 @@ body{
 .orange-background{
     background-image: url("images/desktop/image-photography.jpg");
 }
-/*l*/
+
 .section-4-text {
     display: inline-flex;
     flex-direction: column;
@@ -251,7 +251,8 @@ body{
     flex: 1;
     width: 40%;
     text-align: center;
-}
+    margin-bottom: 4%;
+    font-size: 115%;}
 
 .section-4-heading{
     color: #235248;
@@ -432,7 +433,11 @@ body{
 .menu-container{
     display: none;
 }
-
+.section-4-img-element-mobile {
+    flex: 1;
+    width: 100%;
+    display: none;
+}
 @media (max-width: 440px) {
     /*.triangle{*/
     /*    display: block;*/
@@ -443,6 +448,16 @@ body{
     /*    position: relative;*/
     /*    left: 88%;*/
     /*}*/
+    .menu-container > span{
+        cursor: pointer;
+    }
+
+    .section-4-img-element {
+        display: none;
+    }
+    .section-4-img-element-mobile {
+        display: block;
+    }
     .contact-btn{
         background-color: #FBD405;
     }
@@ -515,6 +530,7 @@ body{
     }
     .section-4-text{
         width: 63%;
+        margin-bottom: 13%;
     }
     .testinomials-heading{
         padding-bottom: 7%;
