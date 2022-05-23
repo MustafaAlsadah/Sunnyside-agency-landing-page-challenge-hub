@@ -1,6 +1,6 @@
 # Frontend Mentor - Sunnyside agency landing page
 
-## Live: https://mustafaalsadah.github.io/Sunnyside-agency-landing-page-challenge-hub/
+## Live: mustafaalsadah.github.io/Sunnyside-agency-landing-page-challenge-hub
 
 ![Design preview for the Sunnyside agency landing page coding challenge](./design/desktop-preview.jpg)
 
